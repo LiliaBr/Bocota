@@ -1,0 +1,38 @@
+.d-flex {
+    display: flex;
+}
+
+.white {
+    background-color: #FFF6EB;
+}
+.yellow {
+    background-color: #FFEDD7;
+}
+.black {
+    background-color: #20140A;
+}
+
+.dark {
+    color: #20140A;
+}
+
+.red {
+    color: #D80027;
+}
+
+.green {
+    color: #43D200;
+}
+
+.orange {
+    color: #FF9345;
+}
+
+.toUppercase {
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
+}
+

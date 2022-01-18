@@ -1,0 +1,400 @@
+body {
+    background-color: #150e08;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+/* Intro */
+.intro {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../assets/img/bocotalabel.png") center no-repeat;
+    background-size: cover;
+}
+
+.intro_inner {
+    max-width: 792px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 72px;
+    margin: 24px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.arrow_btn {
+    position: absolute;
+    left: 50%;
+    bottom: 32px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+/* Header */
+.header {
+    background: linear-gradient(to bottom, rgba(8, 8, 8, 1), rgba(8, 8, 8, 0));
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    margin-left: 48px;
+}
+
+.logo {
+    background: url("../assets/img/logo.svg") no-repeat;
+    width: 119px;
+    height: 48px;
+}
+
+.header_menu_items {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    padding: 36px 16px;
+}
+
+.btn_menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.start_btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px 24px;
+    border-radius: 16px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.profile_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    margin-left: 12px;
+}
+
+
+
+/* Section work*/
+
+.section_work {
+    position: relative;
+    width: 100%;
+}
+
+.container_header {
+    width: 100%;
+    max-width: 792px;
+    margin: 0 auto;
+}
+
+.section_title {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 72px;
+    margin: 96px 0 48px;
+}
+
+
+.static_logo {
+    position: absolute;
+    top: 217px;
+    left: 452px;
+}
+
+
+.text_block {
+    position: relative;
+}
+
+.text_block::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 330px;
+    height: 330px;
+    background: url("../assets/img/bocota-static.svg") center center no-repeat;
+    background-size: contain;
+}
+
+.background-new:before {
+    background: url("../assets/img/bocota-static$.svg") center center no-repeat;
+    background-size: contain;
+    left: auto;
+    right: 0;
+    z-index: 0;
+}
+
+.text-block-content {
+    width: 50%;
+    margin-top: 48px;
+    margin-left: auto;
+}
+
+.position-block {
+    width: 65%;
+    margin-right: auto;
+    margin-left: 0;
+    padding-left: 204px;
+}
+
+.block-title:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 2px;
+    background-color: #E8C297;
+
+    right: calc(100% + 24px);
+    top: 50%;
+}
+
+.block-title {
+    font-size: 32px;
+    text-align: left;
+    line-height: 40px;
+    position: relative;
+}
+
+.block-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+
+/* Section funds */
+
+.funds {
+    position: relative;
+    width: 100%;
+}
+
+.row {
+    flex-wrap: nowrap;
+    margin: 36px -12px;
+}
+
+.column {
+	flex-direction: column;
+    margin: 0 12px;
+    width: calc(100%/ 3);
+}
+
+.container-statistic {
+    padding: 32px;
+    border-radius: 32px;
+    line-height: 24px;
+    flex-direction: column;
+}
+.container-statistic + .container-statistic {
+    margin-top: 24px;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.question {
+    margin-top: 8px;
+}
+
+.profitability {
+    width: 85%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+.container-chart {
+    margin: 16px 0 24px;
+    width: 100%;
+}
+
+.statistic-text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.s-block {
+    margin: 16px 0 24px;
+}
+.q-icon {
+    margin-left: 8px;
+}
+
+.frame {
+    padding: 16px;
+    margin: 8px 0;
+    border-radius: 16px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* Section FAQ */
+.cnt-question {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #FFF6EB;
+}
+
+.cnt-question + .cnt-question {
+    padding-top: 24px;
+}
+.question-frame {
+    justify-content: space-between;
+}
+
+.arrow-icon {
+    margin: auto 0;
+}
+
+
+/* Section question */
+
+.question {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../assets/img/bocotaLabelEnd.svg") center no-repeat;
+    background-size: cover;
+}
+
+.block-connection {
+    margin-top: 64px;
+}
+
+.connection {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.block_btn_items {
+    display: flex;
+    margin: 32px auto;
+    justify-content: center;
+}
+
+.connection-btn {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px 24px 12px 56px;
+    border-radius: 16px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 12px;
+}
+
+.icon-t {
+    position: absolute;
+    left: 26px;
+    top: 14px;
+}
+
+.cnt-account {
+    vertical-align: top;
+    padding: 48px;
+    border-radius: 32px;
+}
+.e-mail {
+    position: relative;
+}
+
+.icon-e-mail {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+
+.cnt-mail {
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px 96px 12px 44px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #20140a;
+    border-width: 1px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    outline: 0;
+    margin-right: 12px;
+}
+
+.cnt-mail:focus {
+    border-width: 2px;
+}
+
+.btn-next {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 16px;
+    color: #FFFFFF;
+    padding: 12px 56px 12px 24px;
+
+}
+
+.icon-arrow {
+    position: absolute;
+    top: 17px;
+    left: 81px;
+}
+
+.info-block {
+    margin: 96px auto 48px;
+}
+
+.info {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 22px;
+}
